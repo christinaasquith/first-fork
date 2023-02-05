@@ -271,7 +271,7 @@ export default function Index() {
             </svg>
           </a>
         </div>
-        <div>Made with 💞 by the Hack Club Organizers!</div>
+        <div>This site is adapted from hack club's <a href="horizon.hackclub.com">Horizon hackathon</a> by <a href="https://github.com/hackclub/horizon">@jc</a> 💞</div>
       </footer>
     </>
   )
