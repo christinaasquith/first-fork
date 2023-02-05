@@ -1,4 +1,5 @@
-$green: #005640;
+$green: #FF3333
+;
 $gold: #F7BE00;
 $dark-gold: #F7BE00;
 $xs-breakpoint: 375.98px;
@@ -72,9 +73,7 @@ header {
 
   h1,
   h5,
-  h6 {
-    -webkit-text-stroke: white;
-  }
+ 
 
   h1 {
     -webkit-text-stroke-width: 3px;
@@ -91,8 +90,8 @@ header {
   }
 
   h6 {
-    -webkit-text-stroke-width: 3px;
-    font-size: 3rem;
+    -webkit-text-stroke-width: 2px;
+    font-size: 2rem;
   }
 
   @media screen and (min-width: $md-breakpoint) and (max-width: $lg-breakpoint) {

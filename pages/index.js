@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import skyline from '../public/images/skyline.svg'
+import exclaim from '../public/images/exclaim.svg'
 import Sparkles from '../components/Sparkle'
 import cookieImage from '../public/images/cookies.svg'
 import Question from '../components/Question'
@@ -8,13 +8,14 @@ export default function Index() {
   return (
     <>
       <header>
-        <h5>Hack Club + Girl Scouts of Greater NY present...</h5>
-        <h1>
-          <Sparkles style={{ display: 'inline-flex' }}>Horizon</Sparkles>
-        </h1>
-        <h6>March 25 &middot; 9&#58;30am - 5&#58;30pm &middot;</h6>
-        <h6>Manhattan, NYC</h6>
-        <Image alt="Skyline" fill={true} src={skyline} />
+        <h5>hackers are back...</h5>
+        <h2>
+          <Sparkles style={{ display: 'inline-flex' }}>Charlotte Coding Club</Sparkles>
+        </h2>
+        <h6>Wednesdays, March 15-April 19 &middot; 2:15 - 3:30pm &middot;</h6>
+        <h6>Charlotte Library</h6>
+
+        <Image alt="exclaim.svg" fill={true} src={exclaim} />
       </header>
       <section
         className="section-special-padding"
@@ -28,29 +29,14 @@ export default function Index() {
           <Image alt="Cookie" id="cookie2" src={cookieImage} />
         </div>
         <div id="about" style={{ position: 'relative', zIndex: '999' }}>
-          <h1>Horizon is a magical one day coding party!</h1>
-          <p>
-            Horizon is a social coding event where teens come together for a day
-            to discover the joy of code, build creative projects and share their
-            projects with the world.
-          </p>
-          <p>
-            Hack Club is a worldwide community of high school hackers. We’re
-            artists, writers, engineers, tinkerers, campers, filmmakers,
-            volunteers. We make things. We help one another. We have fun.
-          </p>
-          <p>
-            Horizon is fully open source, and funded and run by the Hack Club
-            community, as well as the Girl Scouts of Greater New York. Hack
-            Clubbers are organizing Horizon in public on the Hack Club Slack and
-            with fully transparent finances using Hack Club Bank. Everything
-            from this website to Horizon's dinner menu was created by teenagers
-            just like yourself, and you're welcome to help out in #horizon on{' '}
+           <h1>Coding for 5th-12th graders</h1>
+          <p>We're a group of Charlotte students who get together every Wednesday to code. It's free and everyone is welcome, regardless of coding levels. We take inspiration from Hack Club, and you can meet more teenagers who code
+              on{' '}
             <a
               href="https://hackclub.com/slack/"
               target="_blank"
               rel="noreferrer">
-              the Slack
+              the Hack Club Slack
             </a>
             !
           </p>
@@ -64,97 +50,77 @@ export default function Index() {
       <section>
         <div id="gallery">
           <div style={{ transform: `rotate(3deg)` }}>
-            <img alt="Image" src="/images/5.jpg" />
+            <img alt="Image" src="https://cloud-3jp8cz0x7-hack-club-bot.vercel.app/0img_4813.jpg" />
             <p>
               <a
-                href="https://assemble.hackclub.com/launch"
+                href="https://editor.sprig.hackclub.com/"
                 target="_blank"
                 rel="noreferrer">
-                Assemble
+                Making a video game 
               </a>
-              , the first in-person hackathon of its kind since the pandemic.
+              , with Sprig
             </p>
           </div>
+
+
           <div style={{ transform: `rotate(-2deg)` }}>
-            <img alt="Image" src="/images/slh.jpg" />
+            <img alt="Image" src="https://cloud-bwnly55jq-hack-club-bot.vercel.app/0img_6275.jpg" />
             <p>
-              Taken at{' '}
-              <a
-                href="https://www.segolilyhacks.com/"
-                target="_blank"
-                rel="noreferrer">
-                Sego Lily Hacks
-              </a>{' '}
-              in Salt Lake City!
+              Coding in Python for FIRST Robotics competition {' '}
+              
             </p>
           </div>
+
           <div style={{ transform: `rotate(1deg)` }}>
-            <img alt="Image" src="/images/2.jpg" />
+            <img alt="Image" src="https://cloud-n9hebz4g3-hack-club-bot.vercel.app/0img_4890.jpg" />
             <p>
-              Shot from{' '}
+              Shot at{' '}
               <a
-                href="https://epochba.hackclub.com/"
+                href="https://cloud-n9hebz4g3-hack-club-bot.vercel.app/0img_4890.jpg"
                 target="_blank"
                 rel="noreferrer">
-                Epoch BA
-              </a>
-              , a satellite hackathon around{' '}
-              <a
-                href="https://epoch.hackclub.com"
-                target="_blank"
-                rel="noreferrer">
-                Epoch
-              </a>
-              !
+                Hack Club {' '}
+              </a>HQ
             </p>
           </div>
+
+
           <div style={{ transform: `rotate(-3deg)` }}>
             <img
               alt="Image"
-              src="https://cloud-b29ke7r2j-hack-club-bot.vercel.app/0hack_club_assemble_ltnj_00611.jpg"
+              src="https://cloud-2so6xlte8-hack-club-bot.vercel.app/0img_1651.jpg"
             />
             <p>
-              Workshop in action at{' '}
-              <a
-                href="https://assemble.hackclub.com/launch"
-                target="_blank"
-                rel="noreferrer">
-                Assemble
-              </a>
-              !
+              Celebrating our coding with pizza{' '}
+               
             </p>
           </div>
           <div style={{ transform: `rotate(2.5deg)` }}>
             <img
               alt="Image"
-              src="https://cloud-eb401ritr-hack-club-bot.vercel.app/0bmc_8978.jpg"
+              src="https://cloud-2so6xlte8-hack-club-bot.vercel.app/1img_1653.jpg"
             />
             <p>
-              Hanging out at{' '}
+              Building our first website{' '}
               <a
                 href="https://epoch.hackclub.com"
                 target="_blank"
                 rel="noreferrer">
-                Epoch
+                
               </a>
             </p>
           </div>
-          <div style={{ transform: `rotate(-1deg)` }}>
-            <img alt="Image" src="/images/0.jpg" />
-            <p>Dino fun at Assemble!</p>
-          </div>
+           
         </div>
       </section>
       <section className="section-special-padding" id="faq-wrapper">
         <div id="faq">
           <div>
             <Question
-              summary="Am I eligible to participate in Horizon?"
+              summary="Can I join the coding club?"
               answer={
                 <p>
-                  This event is open to Cadettes, Seniors, and Ambassadors. Girl
-                  Scouts can sign up on the GSGNY registration page. &#40;Link
-                  coming soon!&#41;
+                  Only 5th-12th graders can join. Only 18 kids per meetup, with priority to Charlotte public school students.  
                 </p>
               }
             />
@@ -162,8 +128,7 @@ export default function Index() {
               summary="Questions about cost/aid?"
               answer={
                 <p>
-                  This event is free to Hack Clubbers. Girl Scouts should reach
-                  out to stem@girlscoutsnyc.org to learn more.
+                  This event is free.
                 </p>
               }
             />
@@ -171,7 +136,7 @@ export default function Index() {
               summary="Can I join if I've never coded before?"
               answer={
                 <p>
-                  This hackathon is for hackers of all skill levels! It's
+                  This club is for hackers of all skill levels! It's
                   completely beginner-friendly. In fact, we'll have workshops
                   and other events, so join us and let's learn together. If
                   you'd like to start exploring some introductory projects,
@@ -187,11 +152,11 @@ export default function Index() {
               }
             />
             <Question
-              summary="What do I need to bring to Horizon?"
+              summary="What do I need to bring?"
               answer={
                 <p>
-                  Bring a laptop if you have one, and also bring a water bottle!
-                  Lunch and snacks will be provided by Girl Scouts.
+                  Bring a laptop if you have one. If not, you can use the libraries. Also bring a water bottle and snacks!
+                  
                 </p>
               }
             />
@@ -215,11 +180,10 @@ export default function Index() {
               </h1>
             </div>
             <Question
-              summary="What can I make at Horizon?"
+              summary="What can I make at coding club?"
               answer={
                 <p>
-                  Anything! Apps, art, sites, and hardware projects are all
-                  perfect for a hackathon. Check out what{' '}
+                  Anything! In past sessions we have built our own websites, coded video games in JavaScript, and wrote Python for robots. Check out what{' '}
                   <a
                     href="https://hackclub.com"
                     target="_blank"
@@ -237,44 +201,34 @@ export default function Index() {
               }
             />
             <Question
-              summary="My parents are worried! What should I do?"
+              summary="My parents can't drive! What should I do?"
               answer={
                 <p>
-                  We're here to help, ask them to reach out to us at{' '}
-                  <a href="mailto:horizon@hackclub.com">horizon@hackclub.com</a>{' '}
-                  and we'll make sure to answer all their questions. Horizon
-                  will be supervised by background checked staff and overseen by
-                  24/7 security staff.
+                  You can probably get a ride from another parent from the school. Also the bus can take you. We're here to help, ask them to reach out to us at{' '}
+                  <a href="mailto:christina@hackclub.com">christina@hackclub.com</a>{' '}
+                  and we'll make sure to answer all your questions.  
                 </p>
               }
             />
             <Question
-              summary="I have more questions, how can I reach out?"
+              summary="Can we hack the school? Plus: I have more questions, how can I reach out?"
               answer={
                 <p>
-                  Contact us! Reach out on #horizon on the{' '}
+                  Contact us! If you're a teenager, join{' '}
                   <a
                     href="https://hackclub.com/slack/"
                     target="_blank"
                     rel="noreferrer">
                     Hack Club Slack
                   </a>{' '}
-                  or email us at{' '}
+                  or email us christina{' '}
                   <a
-                    href="mailto:horizon@hackclub.com"
+                    href="mailto:christina@hackclub.com"
                     target="_blank"
                     rel="noreferrer">
-                    horizon@hackclub.com
+                    christina@hackclub.com
                   </a>
-                  . Girl Scouts can reach out to{' '}
-                  <a
-                    href="mailto:stem@girlscoutsnyc.org"
-                    target="_blank"
-                    rel="noreferrer">
-                    stem@girlscoutsnyc.org
-                  </a>{' '}
-                  for any questions or concerns. We're always ready to answer
-                  all your questions!
+                   
                 </p>
               }
             />
