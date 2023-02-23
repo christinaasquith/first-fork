@@ -14,8 +14,6 @@ export default function Index() {
         </h2>
         <h6>Wednesdays, March 15-April 19 &middot; 2:15 - 3:30pm &middot;</h6>
         <h6>Charlotte Library</h6>
-
-        <Image alt="exclaim.svg" fill={true} src={exclaim} />
       </header>
       <section
         className="section-special-padding"
@@ -30,7 +28,8 @@ export default function Index() {
         </div>
         <div id="about" style={{ position: 'relative', zIndex: '999' }}>
            <h1>Coding for 5th-12th graders</h1>
-          <p>We're a group of Charlotte students who get together every Wednesday to code. It's free and everyone is welcome, regardless of coding levels. We take inspiration from Hack Club, and you can meet more teenagers who code
+          <p>We're a group of Charlotte students who get together for 6-week sessions of coding. It's free and everyone is welcome, regardless of coding levels.</p>
+          <p>We are part of a nationwide community of hackers at Hack Club, and you can meet more teenagers who code
               on{' '}
             <a
               href="https://hackclub.com/slack/"
@@ -40,6 +39,8 @@ export default function Index() {
             </a>
             !
           </p>
+          <p>To sign up, email club organizer and local mom: Christina Asquith christina@hackclub.com and include: your child's first name, age, and any coding experience.</p>
+          <p>Then, see you child on March 15th at 2:15pm for the first of 6 weekly meetups! </p>
         </div>
         <div className="cookies">
           <Image alt="Cookie" id="cookie3" src={cookieImage} />
@@ -80,7 +81,7 @@ export default function Index() {
                 target="_blank"
                 rel="noreferrer">
                 Hack Club {' '}
-              </a>HQ
+              </a>HQ in Shelburne
             </p>
           </div>
 
@@ -120,7 +121,7 @@ export default function Index() {
               summary="Can I join the coding club?"
               answer={
                 <p>
-                  Only 5th-12th graders can join. Only 18 kids per meetup, with priority to Charlotte public school students.  
+                  We welcome 6th-12th graders. Only 18 kids per meetup, with priority to CCS and CVSDVT students.  
                 </p>
               }
             />
@@ -271,7 +272,10 @@ export default function Index() {
             </svg>
           </a>
         </div>
-        <div>This site is adapted from hack club's <a href="horizon.hackclub.com">Horizon hackathon</a> by <a href="https://github.com/hackclub/horizon">@jc</a> 💞</div>
+        <div>This site is adapted from Hack Club's <a href="horizon.hackclub.com"
+                target="_blank"
+                rel="noreferrer">
+                Horizon hackathon</a> by <a href="https://github.com/hackclub/horizon">@jc</a> 💞</div>
       </footer>
     </>
   )
