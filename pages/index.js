@@ -39,7 +39,14 @@ export default function Index() {
             </a>
             !
           </p>
-          <p>To sign up, email club organizer and local mom: Christina Asquith christina@hackclub.com and include: your child's first name, age, and any coding experience.</p>
+
+
+          <p>To sign up please add your name and email to this sheet:
+          <button type="button">
+            <a href="https://docs.google.com/spreadsheets/d/1kkIoclxYr6mVrl6VxoF0_BXI9d9JY0z6_qECvmGZ1hU/edit?usp=sharing" >Click here to reserve your spot</a></button>
+          </p>
+
+
           <p>Then, see you child on March 15th at 2:15pm for the first of 6 weekly meetups! </p>
         </div>
         <div className="cookies">
